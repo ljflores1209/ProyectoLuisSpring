@@ -1,0 +1,67 @@
+body{
+    padding: 5%;
+    background-color:  rgb(230, 252, 252);
+}
+#opcion-cadena{
+    display: none;
+}
+#opcion-juego{
+    display: none;
+}
+#opcion-formulario{
+    display: none;
+}
+#opcion-memoria{
+    display: none;
+}
+
+
+.box{
+    border-radius: 30px;
+    height: 500px;
+    width: auto;
+    background-color: rgb(4,128,128); 
+}
+.boxes{
+    border-radius: 20px;
+    margin: 3%;
+    background-color:  rgb(230, 252, 252);
+    
+}
+.altu{
+    height: 100%;
+}
+
+.center {
+    
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+  }
+
+.color-mensaje{
+    color: red;
+}
+
+.color-boton{
+    background:  rgb(4,128,128);
+    color: rgb(230, 252, 252);
+    border-radius: 5px;
+}
+
+ .boton-tablero{
+     width: 40px;
+     height: 40px;
+ }
+
+ .usuarioBienvenida{
+     display: none;
+ }
+
+ h2 span{
+     color: red;
+ }
+ .esconder{
+     display: none;
+ }

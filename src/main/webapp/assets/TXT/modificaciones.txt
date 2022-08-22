@@ -1,0 +1,4 @@
+.- Padding : 60px skill session 
+.- Cambio del boton-top
+.- Numero de whatsapp que salga una vez, js
+.- Cambiar el script del js en tienda jsp. sacar del div

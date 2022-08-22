@@ -1,0 +1,209 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+p{
+	font-size: 150%;
+}
+.bs-example{
+        margin: 20px;        
+    }
+.navbar-session{
+    margin-right: 30px;
+}
+section h4{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    
+}
+.about-session{
+    background: rgb(230, 252, 252);
+    height: 100%;
+    width: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    
+}
+nav {
+    filter: blur(0px);
+    opacity: 1;
+    color:black;
+}
+
+.boton{
+    background: rgb(4,128,128);
+    color: rgb(230, 252, 252);
+    border-radius: 18px;
+}
+.device{
+    box-shadow: 0px 0px 20px rgb(4,128,128);
+    border-radius:10px;
+}
+.descargar{
+    background: rgb(245, 228, 192);
+    color: rgb(0,0,0);
+}
+.myskill-session{
+
+    background: radial-gradient(rgb(230, 252, 252),rgb(4,128,128));
+    text-align: center;
+    padding: 60px;
+}
+.myproject-img{
+    box-shadow: 0px 10px 20px rgb(4,128,128);
+    margin-top: 25px;
+    width:100%;
+    border-radius:10px; 
+           
+}
+.transf-hover{
+	transition: transform .2s;
+}
+.transf-hover:hover{
+	transform: scale(1.05);
+}
+
+
+.myproject-img:hover{
+	box-shadow: 0px 10px 20px rgb(230, 252, 252); 
+     
+}
+.sombra-hover:hover{
+	
+	box-shadow: 0px 10px 20px rgb(1, 49, 49);
+}
+
+
+
+
+div a h1{
+    padding: 50px;
+    
+}
+.project-session{
+    padding: 50px;
+    background: rgb(230, 252, 252); 
+}
+.project-session-1{
+    
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    
+}
+.centrado{
+    text-align: center;
+    align-self: center; 
+    justify-content:center;
+    
+}
+
+.margen-lateral{
+    margin-left: 35PX;
+    margin-right: 35PX;
+}
+.education-session{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    
+}
+
+.contact-session{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.education-contact-session{
+    background:linear-gradient(rgb(230, 252, 252),rgb(4,128,128));
+}
+.contact-media{
+    margin-right: 20px;
+}
+.education{
+    border: none ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px;
+   
+    margin-left: 15%;
+    margin-right: 15%; 
+}
+
+
+.card{
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px;
+    margin: 25px;
+    
+    background: rgb(230, 252, 252);
+}
+.education-margin{
+    padding: 5%;
+}
+
+  
+ 
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa:hover{
+      opacity: 90%;
+  }
+ 
+  .fa {
+    padding: 5px;
+    font-size:20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+  }
+  .fa1 {
+    padding: 0%;
+    font-size:20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+  }
+  #boton-up{
+  
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border:rgb(230, 252, 252); /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: rgb(4,128,128); /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+  }
+#boton-up:hover {
+        background-color: rgb(49, 48, 48); /* Add a dark-grey background on hover */
+      }
+ .progress-color{
+ 	background-color: rgb(230, 252, 252);
+ 	color:rgb(4,128,128);
+ 	min-width: 20px;
+ } 
+ 
+ .body-404 {
+    position:absolute;
+    z-index: 2;
+    
+    
+   }
+
+ 
+
