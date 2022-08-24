@@ -16,10 +16,10 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <!-- 	CDN BOOTSTRAP   -->
 
-<link rel="stylesheet" href="assets/css/calculadora.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/calculadora.css">
 
 
-<title>CalculadorA</title>
+<title>Calculadora</title>
 </head>
 <body>
 

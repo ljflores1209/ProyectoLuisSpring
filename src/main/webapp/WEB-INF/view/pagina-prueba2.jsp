@@ -7,10 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+Estamos en la pagina prueba #2!!
 
-<%response.sendRedirect("primeraPagina"); %>
-
-
- 
 </body>
 </html>

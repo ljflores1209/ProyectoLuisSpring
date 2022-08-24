@@ -34,7 +34,7 @@
 		</div>
 		<div >
 			<div class="col-6">
-				<a href="LuisController?accion=nuevo">Añadir un producto</a>
+				<a href="producto/nuevo">Añadir un producto</a>
 			</div>
 			<div class="col-6">
 				
@@ -51,7 +51,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<c:forEach var="producto" items="${productos}">
+				<c:forEach var="producto" items="${misProductos}">
 					<tr>
 						<td><c:out value="${producto.id_producto}" /></td>
 						<td><c:out value="${producto.nombre}" /></td>

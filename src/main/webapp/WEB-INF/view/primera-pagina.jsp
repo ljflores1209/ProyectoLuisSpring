@@ -65,12 +65,20 @@
 						<h4 class="pt-5">Actualmente estoy enfocado en la
 							programación web con una gran disposición para aprender y seguir
 							creciendo en este maravilloso mundo. Con mis conocimientos
-							adquiridos actualmente puedo trabajar con HTML & CSS, Bootstrap,
-							JavaScript, Java, Mysql.</h4>
+							adquiridos actualmente puedo trabajar con HTML & CSS, JavaScript, Java, Spring, Mysql.</h4>
 						<div class="pt-5 ">
 							<a href="${pageContext.request.contextPath}/assets/pdf/CV_Luis_ES.pdf" class="btn boton"
 								data-aos="fade-right" data-aos-offset="100"
 								data-aos-easing="ease-in-sine" role="button">Descargar CV</a>
+								
+								<a href="prueba/pepe" class="btn boton"
+								data-aos="fade-right" data-aos-offset="100"
+								data-aos-easing="ease-in-sine" role="button">Prueba controladores</a>
+								
+								<a href="prueba/primeraPagina" class="btn boton"
+								data-aos="fade-right" data-aos-offset="100"
+								data-aos-easing="ease-in-sine" role="button">Prueba 2</a>
+								
 						</div>
 
 					</div>
@@ -169,7 +177,7 @@
 			<div class="row  pt-5 ">
 				<div class=" col-sm-6 centrado col-xl-3">
 					<div class="margen-lateral ">
-						<a href="calculadora.jsp"><img data-bss-hover-animate="pulse"
+						<a href="calculadora"><img data-bss-hover-animate="pulse"
 							src="${pageContext.request.contextPath}/assets/img/inicio/calculadora-index.JPG"
 							class="myproject-img transf-hover " width="100%"></a>
 					</div>
@@ -179,7 +187,7 @@
 				</div>
 				<div class=" col-sm-6 centrado col-xl-3">
 					<div class="margen-lateral">
-						<a href="LuisController?accion=productos"><img
+						<a href="producto/listaProductos"><img
 							src="${pageContext.request.contextPath}/assets/img/inicio/mantenimiento-index.png"
 							class="myproject-img sombra-hover" width="100%"></a>
 					</div>
