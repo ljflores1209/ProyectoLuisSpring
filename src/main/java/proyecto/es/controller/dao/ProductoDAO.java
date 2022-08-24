@@ -9,6 +9,8 @@ import proyecto.es.controller.entity.Producto;
 public interface ProductoDAO {
 
 	List<Producto> getProductos();
+
+	void insertaProducto(Producto producto);
 	
 	
 

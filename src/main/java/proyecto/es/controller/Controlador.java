@@ -11,7 +11,7 @@ import proyecto.es.controller.dao.ProductoDAO;
 import proyecto.es.controller.entity.Producto;
 
 @Controller
-
+@RequestMapping("")
 public class Controlador {
 
 	@RequestMapping("/primeraPagina")
@@ -28,5 +28,13 @@ public class Controlador {
 	
 	
 	
+	@RequestMapping("/productoNuevo")
+	public String nuevo() {
+		
+		return "pagina-prueba";
+	}
+	
 
+	
+	
 }

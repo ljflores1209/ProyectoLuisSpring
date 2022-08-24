@@ -15,7 +15,7 @@
 		http://www.springframework.org/schema/tx/spring-tx.xsd">
 
 	<!-- Paquete de escaneo de componentes -->
-	<context:component-scan base-package="proyecto.es.controller" />
+	<context:component-scan base-package="proyecto.es" />
 
 	<!-- Conversión formateo y validación-->
 	<mvc:annotation-driven/>

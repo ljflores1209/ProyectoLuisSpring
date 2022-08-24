@@ -1,11 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%> 
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Nuevo producto</title>
 <!-- 	CDN BOOTSTRAP   -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -22,7 +23,7 @@
             <p>Introduzca los datos del producto</p>
         </div>
  
-        <form action="./LuisController?accion=insertar" method="post">
+        <form:form action="insertaProducto" modelAttribute="producto" method="GET">
             <div class="form-group">
                 <label for="nombre">Nombre:</label> <input type="text"
                     class="form-control" placeholder="Introduzca el nombre" name="nombre">
@@ -40,7 +41,7 @@
                     class="form-control" placeholder="Introduzca la fecha" name="fecha">
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
+        </form:form>
         <div class="text-danger">
 			<c:out value="${mensaje}" />
 		</div>

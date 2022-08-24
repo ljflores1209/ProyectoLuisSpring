@@ -23,18 +23,18 @@
 		<div class="jumbotron">
 			<div class="row">
 				<div class="col-8">
-					<h1>Mantenimiento de Productos</h1>
-					<p>Aquí podrá usted hacer el mantenimiento de todos los
+					<h1>Gestion de Productos</h1>
+					<p>Aquí podrá usted gestionar todos los
 						productos</p>
 				</div>
 				<div class="col-4">
-					<a type="button" href="index.jsp" type="button" class="btn btn-default border">Volver</a>
+					<a type="button" href="inicio" type="button" class="btn btn-default border">Volver</a>
 				</div>
 			</div>
 		</div>
 		<div >
 			<div class="col-6">
-				<a href="producto/nuevo">Añadir un producto</a>
+				<a href="productoNuevo">Añadir un producto</a>
 			</div>
 			<div class="col-6">
 				
