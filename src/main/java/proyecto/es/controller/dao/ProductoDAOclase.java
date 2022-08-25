@@ -33,10 +33,19 @@ public class ProductoDAOclase implements ProductoDAO {
 
 		Session miSession = sessionFactory.getCurrentSession();
 
-		miSession.save(producto);
-		
-		
+		miSession.saveOrUpdate(producto);
 
+	}
+
+	@Override
+	@Transactional
+	public Producto getProducto(int id) {
+
+		Session miSession = sessionFactory.getCurrentSession();
+
+		Producto producto = miSession.get(Producto.class, id);
+
+		return producto;
 	}
 
 	@Autowired

@@ -37,13 +37,27 @@ public class GestionProductos {
 	
 	
 	
-	@RequestMapping("/productoNuevo")
-	public String productoNuevoFormulario() {
+	@GetMapping("/productoNuevo")
+	public String productoNuevoFormulario(Model modelo) {
 		
-		return "producto-nuevo";
+		Producto producto=new Producto();
+		modelo.addAttribute("producto", producto);
+		
+		return "producto-formulario";
 	}
 	
-	@GetMapping("/insertaProducto")
+	@RequestMapping("/productoEditar")
+	public String productoEditar(@RequestParam("id_producto") int id, Model modelo) {
+		
+		System.out.println("llegue a recuperar el id: "+ id );
+		Producto producto=productoDAO.getProducto(id);
+		System.out.println(producto.toString());
+		modelo.addAttribute("producto",producto);
+		
+		return "producto-formulario";
+	}
+	
+	@PostMapping("/insertaProducto")
 	public String insertaProducto(@ModelAttribute("producto") Producto producto) {
 		System.out.println("tratando de insertar producto");
 		System.out.println(producto.toString());

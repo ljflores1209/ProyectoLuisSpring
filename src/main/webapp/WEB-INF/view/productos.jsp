@@ -24,21 +24,19 @@
 			<div class="row">
 				<div class="col-8">
 					<h1>Gestion de Productos</h1>
-					<p>Aquí podrá usted gestionar todos los
-						productos</p>
+					<p>Aquí podrá usted gestionar todos los productos</p>
 				</div>
 				<div class="col-4">
-					<a type="button" href="inicio" type="button" class="btn btn-default border">Volver</a>
+					<a type="button" href="inicio" type="button"
+						class="btn btn-default border">Volver</a>
 				</div>
 			</div>
 		</div>
-		<div >
+		<div>
 			<div class="col-6">
 				<a href="productoNuevo">Añadir un producto</a>
 			</div>
-			<div class="col-6">
-				
-			</div>
+			<div class="col-6"></div>
 		</div>
 		<table class="table table-striped">
 			<thead>
@@ -52,16 +50,23 @@
 			</thead>
 			<tbody>
 				<c:forEach var="producto" items="${misProductos}">
+
+					<c:url var="linkActualizar" value="/producto/productoEditar">
+
+						<c:param name="id_producto" value="${producto.id_producto}"></c:param>
+
+
+					</c:url>
+
 					<tr>
-						<td><c:out value="${producto.id_producto}" /></td>
+						
 						<td><c:out value="${producto.nombre}" /></td>
 						<td><c:out value="${producto.tipo}" /></td>
 						<td><c:out value="${producto.precio}" /></td>
 						<td><c:out value="${producto.fecha}" /></td>
-						<td><a
-							href="LuisController?accion=eliminar&id=<c:out value="${producto.id_producto}"/>">Eliminar</a>
-							| <a
-							href="LuisController?accion=editar&id=<c:out value="${producto.id_producto}"/>">Editar</a></td>
+						<td><a href="LuisController?accion=eliminar&id=<c:out value="${producto.id_producto}"/>">Eliminar</a>
+						<td><a href="${linkActualizar}"><input type="button" value="Editar"/></a></td>
+						
 					</tr>
 				</c:forEach>
 			</tbody>

@@ -11,6 +11,8 @@ public interface ProductoDAO {
 	List<Producto> getProductos();
 
 	void insertaProducto(Producto producto);
+
+	Producto getProducto(int id);
 	
 	
 
