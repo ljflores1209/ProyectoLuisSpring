@@ -25,14 +25,14 @@
 	crossorigin="anonymous"></script>
 <!--CDN JQUERY-->
 
-<link rel="stylesheet" href="./assets/css/funciones.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/funciones.css">
 
 </head>
 <body>
 
 	<div class="container-fluid ">
 		<div class="col-4 pb-4 ">
-			<a type="button" href="index.jsp" type="button"
+			<a type="button" href="primeraPagina" type="button"
 				class="btn color-boton">Volver</a>
 		</div>
 

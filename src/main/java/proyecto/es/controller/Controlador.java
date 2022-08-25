@@ -26,6 +26,25 @@ public class Controlador {
 		return "calculadora";
 	}
 	
+	@RequestMapping("/tienda")
+	public String tienda() {
+		
+		return "tienda";
+	}
+	
+	@RequestMapping("/funciones")
+	public String funciones() {
+		
+		return "funciones";
+	}
+	
+	@RequestMapping("/proyectoCricoin")
+	public String proyectoCricoin() {
+		
+		
+		return "";
+	}
+	
 	
 	
 	@RequestMapping("/productoNuevo")

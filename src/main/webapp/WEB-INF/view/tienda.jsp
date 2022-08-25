@@ -15,7 +15,7 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <!-- 	CDN BOOTSTRAP   -->
-<link rel="stylesheet" href="assets/css/tienda.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/tienda.css">
 </head>
 <body>
 
@@ -28,7 +28,7 @@
 
 				<nav
 					class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
-					<a class="navbar-brand " href="index.jsp">Inicio</a>
+					<a class="navbar-brand " href="primeraPagina">Inicio</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#collapsibleNavbar">
 						<span class="navbar-toggler-icon"></span>

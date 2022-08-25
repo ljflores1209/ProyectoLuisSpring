@@ -122,8 +122,8 @@
 						<progress id="file" value="55" max="100"> 90% </progress>
 					</div>
 					<div>
-						<label for="file">MySQL</label>
-						<progress id="file" value="65" max="100"> 90% </progress>
+						<label for="file">Spring</label>
+						<progress id="file" value="40" max="100"> 90% </progress>
 					</div>
 					<div>
 						<label for="file">React</label>
@@ -136,7 +136,7 @@
 						<progress id="file" value="60" max="100"> 90% </progress>
 					</div>
 					<div>
-						<label for="file">API</label>
+						<label for="file">MySQL</label>
 						<progress id="file" value="15" max="100"> 90% </progress>
 					</div>
 					<div>
@@ -163,8 +163,8 @@
 					<span class="navbar-text actions"> </span>
 				</div>
 				<div class="col-xl-6 col-sm-12 centrado">
-					<div id="juan">
-						<a href="#"><img
+					<div id="">
+						<a href="/ProyectoCRICOIN/index.jsp"><img
 							data-bss-hover-animate="pulse"
 							src="${pageContext.request.contextPath}/assets/img/inicio/cricoin-index.JPG" class="myproject-img "
 							width="100%"></a>
@@ -199,7 +199,7 @@
 				</div>
 				<div class=" col-sm-6 centrado col-xl-3">
 					<div class="margen-lateral ">
-						<a href="tienda.jsp"><img
+						<a href="tienda"><img
 							src="${pageContext.request.contextPath}/assets/img/inicio/ofertas-index.JPG"
 							class="myproject-img mt-5 transf-hover sombra-hover" width="100%"></a>
 					</div>
@@ -209,7 +209,7 @@
 				</div>
 				<div class="col-sm-6 centrado col-xl-3">
 					<div class="margen-lateral  ">
-						<a href="funciones.jsp"><img
+						<a href="funciones"><img
 							src="${pageContext.request.contextPath}/assets/img/inicio/utilidades-index.jpg"
 							class="myproject-img " width="100%"></a>
 					</div>
