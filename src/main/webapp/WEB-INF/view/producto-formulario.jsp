@@ -30,7 +30,7 @@
 
 
 
-		<form:form action="insertaProducto" modelAttribute="producto"
+		<form:form action="productoInsertar" modelAttribute="producto"
 			method="POST">
 
 
@@ -60,7 +60,7 @@
 					value="${producto.fecha }">
 			</div>
 
-			<button type="submit" class="btn btn-primary">Enviar</button>
+			<button type="submit" class="btn btn-primary">Insertar/Actualizar</button>
 
 
 

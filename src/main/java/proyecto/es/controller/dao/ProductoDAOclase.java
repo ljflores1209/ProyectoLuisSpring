@@ -48,6 +48,21 @@ public class ProductoDAOclase implements ProductoDAO {
 		return producto;
 	}
 
+	@Override
+	@Transactional
+	public void eliminaProducto(int id) {
+
+		Session miSession = sessionFactory.getCurrentSession();
+		
+		Query consulta=miSession.createQuery("delete from Producto where id_producto=:idProducto");
+		
+		consulta.setParameter("idProducto", id);
+		
+		consulta.executeUpdate();
+		
+
+	}
+
 	@Autowired
 	private SessionFactory sessionFactory;
 

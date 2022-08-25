@@ -57,6 +57,13 @@
 
 
 					</c:url>
+					
+					<c:url var="linkEliminar" value="/producto/eliminaProducto">
+
+						<c:param name="id_producto" value="${producto.id_producto}"></c:param>
+
+
+					</c:url>
 
 					<tr>
 						
@@ -64,7 +71,8 @@
 						<td><c:out value="${producto.tipo}" /></td>
 						<td><c:out value="${producto.precio}" /></td>
 						<td><c:out value="${producto.fecha}" /></td>
-						<td><a href="LuisController?accion=eliminar&id=<c:out value="${producto.id_producto}"/>">Eliminar</a>
+			
+						<td><a href="${linkEliminar}"><input type="button" value="Eliminar"/></a></td>
 						<td><a href="${linkActualizar}"><input type="button" value="Editar"/></a></td>
 						
 					</tr>

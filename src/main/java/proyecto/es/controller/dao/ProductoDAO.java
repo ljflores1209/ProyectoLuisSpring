@@ -13,6 +13,8 @@ public interface ProductoDAO {
 	void insertaProducto(Producto producto);
 
 	Producto getProducto(int id);
+
+	void eliminaProducto(int id);
 	
 	
 
