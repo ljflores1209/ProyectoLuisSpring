@@ -11,17 +11,20 @@ import proyecto.es.controller.dao.ProductoDAO;
 import proyecto.es.controller.entity.Producto;
 
 @Controller
-@RequestMapping("")
+//@RequestMapping("pepe")
 public class Controlador {
 
 	@RequestMapping("/primeraPagina")
 	public String proyecto() {
+		System.out.println("pase por el controlador y primera pagina");
 
-		return "primera-pagina";
+		//return "primera-pagina";
+		return "principal";
 	}
 	
 	@RequestMapping("/calculadora")
 	public String calculadora() {
+		System.out.println("pase por calculador");
 		
 		return "calculadora";
 	}

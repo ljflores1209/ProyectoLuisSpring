@@ -20,10 +20,12 @@
 <!-- 	CDN BOOTSTRAP   -->
 
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/inicio.css">
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/assets/css/inicio.css">
 
 </head>
 <body>
+	
 	<nav
 		class="navbar navbar-dark navbar-expand-sm sticky-top navigation-clean-button bg-dark"
 		data-aos="fade">
@@ -65,27 +67,27 @@
 						<h4 class="pt-5">Actualmente estoy enfocado en la
 							programación web con una gran disposición para aprender y seguir
 							creciendo en este maravilloso mundo. Con mis conocimientos
-							adquiridos actualmente puedo trabajar con HTML & CSS, JavaScript, Java, Spring, Mysql.</h4>
+							adquiridos actualmente puedo trabajar con HTML & CSS, JavaScript,
+							Java, Spring, Mysql.</h4>
 						<div class="pt-5 ">
-							<a href="${pageContext.request.contextPath}/assets/pdf/CV_Luis_ES.pdf" class="btn boton"
-								data-aos="fade-right" data-aos-offset="100"
-								data-aos-easing="ease-in-sine" role="button">Descargar CV</a>
-								
-								<a href="prueba/pepe" class="btn boton"
-								data-aos="fade-right" data-aos-offset="100"
-								data-aos-easing="ease-in-sine" role="button">Prueba controladores</a>
-								
-								<a href="prueba/primeraPagina" class="btn boton"
-								data-aos="fade-right" data-aos-offset="100"
+							<a
+								href="${pageContext.request.contextPath}/assets/pdf/CV_Luis_ES.pdf"
+								class="btn boton" data-aos="fade-right" data-aos-offset="100"
+								data-aos-easing="ease-in-sine" role="button">Descargar CV</a> <a
+								href="prueba/prueba1" class="btn boton" data-aos="fade-right"
+								data-aos-offset="100" data-aos-easing="ease-in-sine"
+								role="button">Prueba 1</a> <a href="prueba/prueba2"
+								class="btn boton" data-aos="fade-right" data-aos-offset="100"
 								data-aos-easing="ease-in-sine" role="button">Prueba 2</a>
-								
+
 						</div>
 
 					</div>
 				</div>
 				<div class="col-md-6 centrado ">
 					<div class=" ">
-						<img class="device " src="${pageContext.request.contextPath}/assets/img/inicio/imagen-1.jpg"
+						<img class="device "
+							src="${pageContext.request.contextPath}/assets/img/inicio/imagen-1.jpg"
 							width="100%">
 					</div>
 
@@ -166,8 +168,8 @@
 					<div id="">
 						<a href="/ProyectoCRICOIN/index.jsp"><img
 							data-bss-hover-animate="pulse"
-							src="${pageContext.request.contextPath}/assets/img/inicio/cricoin-index.JPG" class="myproject-img "
-							width="100%"></a>
+							src="${pageContext.request.contextPath}/assets/img/inicio/cricoin-index.JPG"
+							class="myproject-img " width="100%"></a>
 					</div>
 					<div class="mt-2">
 						<p>Exchange</p>
@@ -177,7 +179,7 @@
 			<div class="row  pt-5 ">
 				<div class=" col-sm-6 centrado col-xl-3">
 					<div class="margen-lateral ">
-						<a href="calculadora"><img data-bss-hover-animate="pulse"
+						<a href="pepe/calculadora"><img data-bss-hover-animate="pulse"
 							src="${pageContext.request.contextPath}/assets/img/inicio/calculadora-index.JPG"
 							class="myproject-img transf-hover " width="100%"></a>
 					</div>
@@ -320,8 +322,7 @@
 					</div>
 				</div>
 			</div>
-			<button id="boton-up" value="1"
-				title="Go to top">⇧</button>
+			<button id="boton-up" value="1" title="Go to top">⇧</button>
 		</section>
 	</div>
 
@@ -333,9 +334,10 @@
 
 
 
-	
+
 	<script src="${pageContext.request.contextPath}/assets/js/inicio.js"></script>
-	<script src="${pageContext.request.contextPath}/assets/js/mantenimiento404.js"></script>
+	<script
+		src="${pageContext.request.contextPath}/assets/js/mantenimiento404.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 </body>

@@ -8,7 +8,8 @@
 </head>
 <body>
 
-<%response.sendRedirect("primeraPagina"); %>
+
+<jsp:forward page="WEB-INF/view/principal.jsp" />
 
 
  
